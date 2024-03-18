@@ -19,7 +19,7 @@
             android:layout_height="213dp">
 
             <ImageView
-                android:id="@+id/Info_Image"
+                android:id="@+id/InfoImage"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="8dp"
@@ -31,7 +31,7 @@
                 app:srcCompat="@drawable/ic_launcher_background" />
 
             <TextView
-                android:id="@+id/Info_Title"
+                android:id="@+id/InfoTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -39,11 +39,11 @@
                 android:layout_marginEnd="16dp"
                 android:text="Sample Title"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/Info_Image"
+                app:layout_constraintStart_toEndOf="@+id/InfoImage"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/Info_Description"
+                android:id="@+id/InfoDescription"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -51,11 +51,11 @@
                 android:layout_marginEnd="16dp"
                 android:text="Info_Address"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/Info_Image"
-                app:layout_constraintTop_toBottomOf="@+id/Info_Title" />
+                app:layout_constraintStart_toEndOf="@+id/InfoImage"
+                app:layout_constraintTop_toBottomOf="@+id/InfoTitle" />
 
             <TextView
-                android:id="@+id/Info_Contact"
+                android:id="@+id/InfoContact"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -63,11 +63,11 @@
                 android:layout_marginEnd="16dp"
                 android:text="Contact Number"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/Info_Image"
-                app:layout_constraintTop_toBottomOf="@+id/Info_Description" />
+                app:layout_constraintStart_toEndOf="@+id/InfoImage"
+                app:layout_constraintTop_toBottomOf="@+id/InfoDescription" />
 
             <TextView
-                android:id="@+id/Info_Hours"
+                android:id="@+id/InfoHours"
                 android:layout_width="0dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="16dp"
@@ -75,8 +75,8 @@
                 android:layout_marginEnd="16dp"
                 android:text="Store Hours"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/Info_Image"
-                app:layout_constraintTop_toBottomOf="@+id/Info_Contact" />
+                app:layout_constraintStart_toEndOf="@+id/InfoImage"
+                app:layout_constraintTop_toBottomOf="@+id/InfoContact" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
